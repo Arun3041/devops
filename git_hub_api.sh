@@ -8,7 +8,10 @@ USERNAME=$username  #export from terminal like ----export username="Arun3041"---
 TOKEN=$token        # export from terminal after generating token like ----export token="pass token value"
 
 # User and Repository information
-REPO_OWNER=$1
+#provide two argrument while running this script through cmd...
+### like ./git_hub_api.sh Arun3041 devops here "Arun3041" is $1 and "devops" is $2
+
+REPO_OWNER=$1  
 REPO_NAME=$2
 
 # Function to make a GET request to the GitHub API
